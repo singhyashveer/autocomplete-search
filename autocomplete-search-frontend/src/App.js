@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import SearchElement from './SearchElement';
+import Body from './Body';
 
 function App() {
   return (
     <>
-    <SearchElement/>
+    <Body/>
     </>
   );
 }
