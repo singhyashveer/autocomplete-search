@@ -36,6 +36,7 @@ const SearchElement = () => {
       <div className=".input-container">
         <input
           className="input-style"
+          placeholder="Type here..."
           value={search}
           name="search"
           onChange={handleChange}
