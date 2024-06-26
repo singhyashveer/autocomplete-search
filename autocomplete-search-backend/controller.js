@@ -1,5 +1,9 @@
 const fs=require("fs")
 
+const home=(req,res)=>{
+    res.json({data:"Home Page"})
+}
+
 const searchQuerry = async (req, res) => {
   const { search } = req.body;
   //Read File
