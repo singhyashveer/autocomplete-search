@@ -75,10 +75,10 @@ const getBookData = async (req, res) => {
     }
   });
 }
-const add=(a,b)=>{return (a+b)}
+
 
 module.exports={
     searchQuerry,
     getBookData,
-    add
+    home
 }
