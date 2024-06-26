@@ -44,4 +44,10 @@ npm start
 ```
 
 
-    
+
+## 🔗 Links
+I have deployed this app on vercel. 
+URL to access the app:
+```bash
+https://autocomplete-search-client.vercel.app/
+```
