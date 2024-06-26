@@ -2,7 +2,6 @@ const fs=require("fs")
 
 const searchQuerry = async (req, res) => {
   const { search } = req.body;
-  console.log(search)
   //Read File
   fs.readFile("data.json", "utf8", (err, rawData) => {
     if (err) {
