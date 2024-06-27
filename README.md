@@ -7,47 +7,38 @@ In this mini project there is an input field. If you type something in that inpu
 ## Installation
 Clone project
 ```bash
-https://github.com/singhyashveer/autocomplete-search.git
+git clone https://github.com/singhyashveer/autocomplete-search.git
 ```
 
-Start Project:
+To Run Backend:
 Go inside **autocomplete-search-backend** Folder:
 ```bash
 cd autocomplete-search-backend
 ```
-Install npm packages
+Build Docker Image
 ```bash
-npm install
+docker build -t backend:dev .
 ```
-Start the Project
+Run Docker image:
 ```bash
-npm start
+docker run -p 5000:5000 backend:dev
 ```
+Backend is running, Now run frontend:
+Go inside **autocomplete-search-frontend** 
 
-Run Test Cases
-```bash
-npm test
-```
-
-Now Run the frontend:
-Go inside **autocomplete-search-frontend** Folder:
 ```bash
 cd autocomplete-search-frontend
 ```
-Install npm packages
+Build Docker Image
 ```bash
-npm install
+docker build -t frontend:dev .
 ```
-Start the Project
+Run Docker image:
 ```bash
-npm start
+docker run -p 3000:3000 frontend:dev
 ```
+Frontend is also running. Now access application through *http://localhost:3000/*
 
 
 
-## 🔗 Links
-I have deployed this app on vercel. 
-URL to access the app:
-```bash
-https://autocomplete-search-client.vercel.app/
-```
+
